@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,800&display=swap');
+*{
+    box-sizing:border-box;
+}
+
+body{
+    margin: 0;
+    background-color: black;
+}
+
+#mainHeader {
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    font-size: 60px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+#openHeader {
+    border: solid 2px grey;
+}
+
+.homeImg {
+    width: 80%;   
+    border: solid 10px grey;
+}
+
+#mainImg {
+    display: flex;
+    justify-content: center;
+}
+
+.textOne {
+    font-family: "Open Sans", sans-serif;
+    font-style: bold;
+    font-size: 250%;
+    color: whitesmoke;
+}
+
+.textThree {
+    font-family: "Open Sans", sans-serif;
+    font-style: bold;
+    font-size: 100%;
+    color: whitesmoke;
+    display: flex;
+    
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.imgFour {
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 48%;
+    height: 140%;
+    border: solid 2px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+#mainNav {
+    background:grey;
+    width: 100%;
+    overflow: auto;
+
+}
+
+#navigation {
+    background: grey;
+    width: 100%;
+    overflow: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+#homeNavigation {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.textTwo {
+    font-family: "Open Sans", sans-serif;
+    font-style: inherit;
+    font-size: 170%;
+    color: whitesmoke;
+    margin-left: 10px;
+    
+}
+
+.img2 {
+    width: 30%;
+    height: 20%;
+    border: solid 2px black;
+    padding-top: 40px;
+}
+
+.img3 {
+    width: 60%;
+    border: solid 2px black;
+    padding-left: 50px
+}
+#bioImg {
+    display: flex;            /* new */
+    justify-content: flex-end;
+         /* new */
+}
+
+.textContOne {
+    border: dotted firebrick 3px;
+} 
+
+.imageOne {
+    width: 33.3%;
+    align-self: center;
+}
+#logo {
+    height: 50vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+}
+
+.container{
+    width: 80%;
+    margin: 80px auto;
+}
+.container h1{
+    padding: 60 0;
+    color: #fff;
+    font-size: 44px;
+    text-align: center;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.col{
+    flex-basis: 50%;
+    min-width: 250px;
+}
+.featire-img{
+    width: 83%;
+    margin: auto;
+    position: relative;
+    border-radius: 6px;
+    overflow: hidden;
+}
+.small-img-row{
+    display: flex;
+    background: #efefef;
+    margin: 20px 0;
+    align-items: center;
+    border-radius: 6px;
+    overflow: hidden;
+    width: 85%;
+}
+.small-img{
+    position: relative;   
+}
+.small-img img{
+    width: 150px;
+}
+.small-img-row p{
+    margin-left: 20px;
+    color: gray;
+    line-height: 22px;
+    font-size: 15px;
+}
+.play-btn{
+    width: 60px;
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+}
+.small-img .play-btn{
+    width: 35px;
+}
+.video-player{
+    width: 80%;
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    display: none;
+}
+.video:focus{
+    outline: none;
+} 
+.close-btn{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 30px;
+    cursor: pointer;
+}
+.gallery {
+    margin: 10px 50px;
+}
+.gallery img{
+    transition: 1s;
+    padding: 15px;
+    width: 300px;
+}
+.gallery img:hover {
+    filter: greyscale(100%);
+    transform: scale(1.1);
+}
+form{
+    margin-top: 50px;
+    transition: all 4s ease-in-out;
+}
+.form-control {
+    width: 600px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    color: rgb(255, 254, 254);
+    font-size: 19px;
+    margin-bottom: 16px;
+    margin-left: 60px;
+}
+input{
+    height: 45px;
+}
+
+form .submit{
+    background: #63605f;
+    border-color: transparent;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+form .submit:hover{
+    background-color: #9e9d9d;
+    cursor: pointer;
+}
